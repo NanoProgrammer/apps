@@ -1,0 +1,48 @@
+# ===== FLUTTER =====
+flutter/**/build/
+flutter/**/.dart_tool/
+flutter/**/.flutter-plugins
+flutter/**/.flutter-plugins-dependencies
+flutter/**/.packages
+flutter/**/pubspec.lock
+
+# Android
+flutter/**/android/.gradle/
+flutter/**/android/local.properties
+flutter/**/android/key.properties
+flutter/**/android/app/debug
+flutter/**/android/app/profile
+flutter/**/android/app/release
+
+# iOS
+flutter/**/ios/Pods/
+flutter/**/ios/.symlinks/
+flutter/**/ios/Flutter/Flutter.framework
+flutter/**/ios/Flutter/App.framework
+flutter/**/ios/Flutter/Generated.xcconfig
+flutter/**/ios/Flutter/flutter_export_environment.sh
+
+# Web build
+flutter/**/web/build/
+
+# ===== NODE / WEB (future-proof) =====
+node_modules/
+dist/
+build/
+.next/
+out/
+
+# ===== VS CODE =====
+.vscode/
+
+# ===== SYSTEM FILES =====
+.DS_Store
+Thumbs.db
+
+# ===== LOGS =====
+*.log
+
+# ===== ENV FILES =====
+.env
+.env.local
+.env.*.local
